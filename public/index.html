@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minimum-scale=1.0">
+    <title>Portafolio-2015482</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="icon" type="image/png" href="./assets/images/favIcon.png" />
+</head>
+
+
+<body class="bodyId">
+
+    <script src="/__/firebase/7.15.5/firebase-app.js"></script>
+    <script src="/__/firebase/7.15.5/firebase-analytics.js"></script>
+    <script src="/__/firebase/init.js"></script>
+
+    <div class="globalGrid">
+
+
+        <header class="header">
+            <div class="logo-nav-container">
+                <a href="index.html" class="logo">
+                    <h5>Portafolio | Bryan Gómez</h5>
+                </a>
+                <span class="menu-icon"></span>
+                <nav class="navigation">
+                    <ul>
+                        <li><a class="one" href="#anchorProjects">Proyectos</a></li>
+                        <li><a class="two" href="#anchorDescription">Acerca de mi</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="linear">
+
+        </div>
+
+
+        <div class="main">
+            <div class="container">
+                <div class="containerC">
+                    <div class="gridPrincipal">
+                        <div class="leftGridTop">
+                            <h1>¡Hola!</br><br>
+                                <div class="textLeft1">
+                                    <div class="textTopHi">
+                                        <br>Soy un desarrollador en<br><br>progreso con habilidades<br><br>importantes en el área de<br><br>programación.
+                                    </div>
+                                    <br>
+                                </div>
+                            </h1>
+                            <center><input class="button1" type="button" value="Conoceme mas" onclick="location.href='#anchorDescription'"></input>
+                            </center>
+                        </div>
+                        <div class="rightGridTop">
+                            <center><img class="imgDev" src="./assets/images/development.png"></center>
+                        </div>
+
+                        <div class="underGrid">
+                            <div class="buttonOneGrid">
+                                <a name="anchorProjects"></a>
+                                <center><input class="buttonShow" type="button" id="button" value="Proyectos" onclick="Mostrar();"></center>
+                            </div>
+                            <div id="showElements" class="showElementsC">
+                                <div class="project1">
+                                    <a href="https://github.com/bgomez-2015482/Twitter-NodeJs"><img src="https://gh-card.dev/repos/bgomez-2015482/Twitter-NodeJs.svg"></a>
+                                </div>
+                                <div class="project2">
+                                    <a href="https://github.com/bgomez-2015482/technologyBlog"><img src="https://gh-card.dev/repos/bgomez-2015482/technologyBlog.svg"></a>
+                                </div>
+                            </div>
+                            <div class="buttonTwoGrid">
+                                <center><input class="buttonShow" type="button" id="button2" value="En desarrollo" onclick="Mostrar2();"></center>
+                            </div>
+                            <div id="showElements2" class="showElementsC2">
+                                <div class="progress1">
+                                    <a href="https://github.com/bgomez-2015482/Spotify-NodeJs"><img src="https://gh-card.dev/repos/bgomez-2015482/Spotify-NodeJs.svg"></a>
+                                </div>
+                                <div class="progress2">
+                                    <a href="https://github.com/bgomez-2015482/Vermintide-Project_UI"><img src="https://gh-card.dev/repos/bgomez-2015482/Vermintide-Project_UI.svg"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <a name="anchorDescription"></a>
+                            <div class="imgInfo">
+                                <center><img class="imgDown" src="./assets/images/info.png"></center>
+                            </div>
+                            <div class="infoDown">
+                                <div class="textAlternative">
+                                    <h3>Soy una persona autodidacta capaz de adaptarme rápidamente a los entornos de trabajo. Inicie con el desarrollo en el 2018 con el lenguaje de Java y en el lapso de tiempo hasta el presente año he estado en el proceso
+                                        de dominar nuevas habilidades nuevos lenguajes de programación.
+                                    </h3>
+                                </div>
+                                <div class="buttonInfo">
+                                    <center>
+                                        <input class="btnInfo" type="button" id="btnFrontOverlay" value="Ver más"></center>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="overlay" id="overlayId">
+            <div class="popup" id="popupId">
+                <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+                <!--<h3>HOLA OWO</h3>
+                <H4>xd</H4>
+                <form action="">
+                    <div class="contenedor-inputs">
+                        <input type="text" placeholder="Nombre">
+                        <input type="email" placeholder="Correo">
+                    </div>
+                <input type="submit" class="btn-submit" value="Suscribirse">
+                </form>-->
+                <img class="imgCV" src="./assets/images/cvv.png">
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <div class="AllFooter">
+                <img src="./assets/images/footer5.png" width="100%">
+            </div>
+            <div class="columnPrincipal">
+                <h3>Bryan Gómez</h3>
+                <h4>&copy 2020 Todos los derechos reservados </h4>
+                <a href="https://github.com/bgomez-2015482 ">
+                    <img class="gitClass " src="./assets/images/gitHubLogoW.png ">
+                </a>
+            </div>
+    </div>
+    </footer>
+
+    </div>
+
+    <script type="text/javascript " src="./scripts/principalScript.js "></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js "></script>
+
+</body>
+
+</html>
